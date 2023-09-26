@@ -1,0 +1,27 @@
+/* селектор по тегу */
+p {
+    height: 30px;
+    background-color: turquoise;
+}
+
+/* селектор по классу */
+.importantBlock {
+    background: fuchsia;
+}
+
+/* селектор по классу но прозрачный */
+.noNeed {
+    background: fixed;
+    /* цвет шрифта */
+    color: crimson;
+}
+
+/* селектор по идентификатору */
+#unimportantBlock {
+    background-color: lemonchiffon;
+}
+
+/* фон главной страницы */
+.index {
+    background-color: chartreuse;
+}

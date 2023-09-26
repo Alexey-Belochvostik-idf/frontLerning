@@ -1,0 +1,5 @@
+/* фон страницы доставка и оплата */
+.ShippingAndPayment {
+    /* цвет в формате rgba */
+    background-color: rgba(0, 139, 139, 0.2);
+}
