@@ -6,8 +6,8 @@
 }
 
                                /* Блок самовыввоз и Доставка*/
-/* Выравнивание по центру и стиль шрифта*/
-.ShippingAndPaymentAlign{
+/*  Стиль шрифта блока div */
+.pickupAndDelivery{
     font-family: Arial, serif;
 }
 /* маркер в виде черты*/
@@ -24,11 +24,11 @@ ul li:before {
     left:     -5px;
     font-weight: bold;
 }
-/* Выравнивание c лева для заголовков */
+/* Выравнивание по центру для заголовков */
 h1{
     text-align-last: center;
 }
-/* Выравнивание c слева для параграфа */
+/* Выравнивание по центру и слева для параграфа */
 p{
     text-align: left;
     margin-left: auto;
