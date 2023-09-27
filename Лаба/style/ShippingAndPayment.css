@@ -1,5 +1,28 @@
+                               /* Блок общее тело */
 /* фон страницы доставка и оплата */
 .ShippingAndPayment {
     /* цвет в формате rgba */
     background-color: rgba(0, 139, 139, 0.2);
 }
+
+                               /* Блок самовыввоз и Доставка*/
+/* Выравнивание по центру и стиль шрифта*/
+.ShippingAndPaymentAlign{
+    text-align-last: center;
+    font-family: Arial, serif;
+}
+/* маркер в виде черты*/
+ul {
+    list-style: none;
+}
+ul li:before {
+    content:  "—  ";
+    position: relative;
+    left:     -5px;
+    font-weight: bold;
+}
+
+
+                               /* Блок оплата */
+                               /* Блок процедура совершения покупки */
+                               /* Блок возврат(замена)товара */
