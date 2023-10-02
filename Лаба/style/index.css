@@ -1,7 +1,7 @@
 /* селектор по тегу */
 p {
-    height: 30px;
     background-color: turquoise;
+    font-size: 30px;
 }
 
 /* селектор по классу */
@@ -25,4 +25,35 @@ p {
 .index {
     background-image: url("../images/fon/1.jpg");
     background-size: cover;
+}
+a {
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    color: royalblue;
+    font-weight: 800;
+    text-decoration: underline;
+    overflow: hidden;
+}
+a::before {
+    position: absolute;
+    content: attr(data-content);
+    top: 0;
+    left: 0;
+    color: midnightblue;
+    text-decoration: underline;
+    overflow: hidden;
+    transition: width 275ms ease;
+}
+a::before {
+    width: 0;
+    white-space: nowrap;
+}
+a:hover::before {
+    width: 100%;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 4rem;
 }
