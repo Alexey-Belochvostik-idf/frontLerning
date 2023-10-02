@@ -1,5 +1,12 @@
 /* фон страницы продукции */
 .products {
     /* цвет по имени */
-    background: turquoise;
+    background-image: url("../images/fon/2.jpg");
+    background-size: cover;
+}
+select{
+    text-align: center;
+    width: 300px;
+    height: 45px;
+    border-radius: 20px;
 }

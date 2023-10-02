@@ -23,5 +23,6 @@ p {
 
 /* фон главной страницы */
 .index {
-    background-color: chartreuse;
+    background-image: url("../images/fon/1.jpg");
+    background-size: cover;
 }

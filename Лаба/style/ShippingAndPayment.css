@@ -1,13 +1,12 @@
-                               /* Блок общее тело */
+                               /* Блок общий */
 /* фон страницы доставка и оплата */
 .ShippingAndPayment {
-    /* цвет в формате rgba */
-    background-color: rgba(0, 139, 139, 0.2);
+    /* цвет фона */
+    background-image: url("../images/fon/4.jpg");
+    background-size: cover;
 }
-
-                               /* Блок самовыввоз и Доставка*/
 /*  Стиль шрифта блока div */
-.pickupAndDelivery{
+div{
     font-family: Arial, serif;
 }
 /* маркер в виде черты*/
@@ -36,7 +35,23 @@ p{
     width: 33em;
 }
 
-
                                /* Блок оплата */
+
+.payment {
+    list-style-type: decimal;
+}
+.paymentOne{
+    list-style-type: decimal;
+}
+.purchaseProcedureOrder{
+    list-style-type: decimal;
+}
+
                                /* Блок процедура совершения покупки */
-                               /* Блок возврат(замена)товара */
+
+.purchaseProcedure{
+    list-style-type: decimal;
+}
+
+
+

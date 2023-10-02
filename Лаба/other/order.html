@@ -1,32 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Заказать</title>
-  <link rel="stylesheet" href="../style/order.css">
+    <meta charset="UTF-8">
+    <title>Заказать</title>
+    <link rel="stylesheet" href="../style/order.css">
 </head>
 <body class="order">
 
-  <h2>Отобраные товары</h2>
-  <div>
-    <img src="../images/Заказать/Отобранные%20товары.png"></a>
-  </div>
-  <h2>Данные заказчика</h2>
-    <div>
-      <img src="../images/Заказать/Данные%20заказчика.png"></a>
-    </div>
-  <h2>Печать</h2>
-    <div>
-      <img src="../images/Заказать/Печать.png"></a>
-    </div>
-  <h2>Доставка</h2>
-    <div>
-      <img src="../images/Заказать/Доставка.png"></a>
-    </div>
-  <h2>Комментарий к заказу</h2>
-    <div>
-      <img src="../images/Заказать/Комментарии%20к%20заказу.png"></a>
-    </div>
-  
+<h1>Отобраные товары</h1>
+<div>
+    <label>
+        <select>
+            <option>Пакеты для выкуумной упаковки</option>
+            <option>Пленка для вакуумной упаковки</option>
+            <option>Упаковочное оборудование</option>
+            <option>Подложки</option>
+            <option>Салфетки</option>
+        </select>
+    </label>
+</div>
+<br>
+<div>
+    <label>
+        <br>
+        <input type="text" placeholder="Ширина рулона, мм" class="amount">
+        <br>
+        <br>
+        <input type="text" placeholder="Количество, кг" class="amount">
+        <br>
+    </label>
+</div>
+<br>
+<form class="add">
+    <button>
+        +
+    </button>
+</form>
+<h1>Данные заказчика</h1>
+<div>
+    <label>
+        <input type="text" placeholder="Наименование заказчика">
+        <br>
+        <br>
+        <input type="text" placeholder="Контактное лицо">
+        <br>
+        <br>
+        <input type="text" placeholder="Реквизиты">
+        <br>
+        <br>
+        <input type="tel" placeholder="Телефон" pattern="2[0-9]{3}-[0-9]{3}">
+        <br>
+        <br>
+        <input type="email" placeholder="email">
+    </label>
+</div>
+<h1>Печать</h1>
+<div>
+    <p>НЕТ</p>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+    </label>
+    <p>ДА</p>
+</div>
+<h1>Доставка</h1>
+<div>
+    <p>НЕТ</p>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+    </label>
+    <p>ДА</p>
+</div>
+<h1>Комментарий к заказу</h1>
+<div>
+    <label class="comment">
+        <input type="text" placeholder="Комментарий к заказу">
+    </label>
+</div>
+<br>
+<div>
+    <label>
+        <input type="submit" placeholder="Отправить заказ">
+    </label>
+</div>
 </body>
 </html>

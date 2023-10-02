@@ -1,5 +1,6 @@
 /* фон страницы оборудования */
 .equipment {
     /* цвета пошестнадцатеричному коду */
-    background: #40e0d0;
+    background-image: url("../images/fon/3.jpg");
+    background-size: cover;
 }
