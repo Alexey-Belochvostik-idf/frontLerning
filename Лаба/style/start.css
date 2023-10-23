@@ -12,7 +12,7 @@ p {
 .noNeed {
     background: fixed;
     /* цвет шрифта */
-    color: crimson;
+    color: black;
 }
 
 /* селектор по идентификатору */

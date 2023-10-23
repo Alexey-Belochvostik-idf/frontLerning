@@ -1,24 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Контакты</title>
-  <link rel="stylesheet" href="../style/contacts.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Контакты</title>
+    <link rel="stylesheet" href="../style/contacts.css">
+    <link rel="stylesheet" href="../style/reset.css"/>
 </head>
 <body class="contacts">
-
-  <div> Телефоны :</div>
-  <div>
-    <a href="tel:+37529-113-17-43">+37529-113-17-43</a>
-  </div>
-  <div>
-    <a href="tel:+37517-337-10-10">+37517-337-10-10</a>
-  </div>
-
-  <div>Email :</div>
-  <div>
-    <a href="bpt@bpt.by">bvp@bvp.by</a>
-  </div>
-  
+<div class="container">
+    <div class="content">
+        <div class="left-side">
+            <div class="address details">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="topic">Адрес</div>
+                <div class="text-one">г.Минск</div>
+                <div class="text-two">220140, г. Минск, ул. Притыцкого, д. 62, корпус 7 (вход с торца)</div>
+            </div>
+            <div class="phone details">
+                <i class="fas fa-phone-alt"></i>
+                <div class="topic">Телефон</div>
+                <div class="text-one">+375 29 113-17-43</div>
+                <div class="text-two">+375 17 337-03-83</div>
+                <div class="text-tree">+375 17 337-10-10</div>
+            </div>
+            <div class="email details">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <div class="text-one">bpt@bpt.by</div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="topic-text">Отправьте нам сообщение</div>
+            <p>
+                Если у вас есть какие-то вопросы или предложения по сотрудничеству -
+                заполните форму ниже
+            </p>
+            <form action="#">
+                <div class="input-box">
+                    <label>
+                        <input type="text" placeholder="Ваше имя"/>
+                    </label>
+                </div>
+                <div class="input-box">
+                    <label>
+                        <input type="text" placeholder="Введите email"/>
+                    </label>
+                </div>
+                <div class="input-box">
+                    <label>
+                        <input type="text" placeholder="Введите телефон"/>
+                    </label>
+                </div>
+                <div class="input-box message-box">
+                    <label>
+                        <textarea placeholder="Сообщение"></textarea>
+                    </label>
+                </div>
+                <div class="button">
+                    <input type="button" value="Отправить"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script
+        src="https://kit.fontawesome.com/fce9a50d02.js"
+        crossorigin="anonymous"
+></script>
 </body>
 </html>
