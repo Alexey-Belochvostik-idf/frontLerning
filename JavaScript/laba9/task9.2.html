@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task2</title>
+</head>
+<body>
+<pre>
+        Задание:
+        Поменяйте сценарий таким образом, чтобы обход данных массива происходил с помощью цикла for...of
+    </pre>
+<script>
+    let values = [10, 20, 4, 6, 11, 9, 125, 1, 8, 0, 3];
+    let max = 0;
+    /*for (let index = 0; index < values.length; index++) {
+        const element = values[index];
+        if (element > max) {
+            max = element;
+        }
+    }*/
+    for (const maximum of values) {
+        if (maximum > max){
+            max = maximum;
+        }
+    }
+    alert("Максимальное значение массива - " + max);
+</script>
+</body>
+</html>

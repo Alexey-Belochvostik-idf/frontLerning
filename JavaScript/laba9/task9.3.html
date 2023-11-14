@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task3</title>
+</head>
+<body>
+<pre>
+        Задание:
+        Напишите сценарий, который найдет в массиве все отрицательные значения и заменить их на значения 0.
+        После этого выведет на экран все элементы массива.
+    </pre>
+<script>
+    let values = [10, 20, -2, 6, 11, -10, 125, -3, 8, 0, 3];
+    alert(values);
+    for (let i = 0; i < values.length; i++) {
+        if (values[i] < 0){
+            values[i] = 0;
+        }
+    }
+    alert(values);
+</script>
+</body>
+</html>
