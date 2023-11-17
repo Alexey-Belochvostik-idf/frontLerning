@@ -31,18 +31,18 @@
     let totalPriceProduct1 = productPrice1 * productQuantity1;
     let totalPriceProduct2 = productPrice2 * productQuantity2;
     let totalPriceProduct3 = productPrice3 * productQuantity3;
-    let delivery = 40;
-    let total = totalPriceProduct1 + totalPriceProduct2 + totalPriceProduct3;
-    let totalDelivery = totalPriceProduct1 + totalPriceProduct2 + totalPriceProduct3 + delivery;
     alert(`Общая сумма по продукту '${product1}' составляет ${totalPriceProduct1}`);
     alert(`Общая сумма по продукту '${product2}' составляет ${totalPriceProduct2}`);
     alert(`Общая сумма по продукту '${product3}' составляет ${totalPriceProduct3}`);
-    let order = prompt("Будете ли заказывать доставку?" +
-                       "Введите 1-если Да, 0-если Нет");
-    if (order == 0) {
-        alert("Всего " + total);
-    } else if (order == 1) {
+
+    let total = totalPriceProduct1 + totalPriceProduct2 + totalPriceProduct3;
+    let shipping = confirm("Заказываете доставку курьером?");
+    if (shipping) {
+        totalDelivery = total + 40;
+        alert("Доставка 40");
         alert("Всего " + totalDelivery);
+    } else {
+        alert("Всего " + total);
     }
 </script>
 </body>

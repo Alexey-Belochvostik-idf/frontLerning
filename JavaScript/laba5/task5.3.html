@@ -28,12 +28,13 @@
 
     let totalPrice = 0;
 
-    totalPrice = totalPrice + productPrice1 * productQuantity1;
-    totalPrice = totalPrice + productPrice2 * productQuantity2;
-    totalPrice = totalPrice + productPrice3 * productQuantity3;
+    totalPrice = totalPrice + (productPrice1 * productQuantity1);
+    totalPrice = totalPrice + (productPrice2 * productQuantity2);
+    totalPrice = totalPrice + (productPrice3 * productQuantity3);
     ordersCount ++;
 
     alert(`Общая сумма ${totalPrice}`);
+    alert(ordersCount);
 </script>
 </body>
 </html>

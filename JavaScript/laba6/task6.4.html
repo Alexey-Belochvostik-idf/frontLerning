@@ -17,7 +17,7 @@
     let productPrice = 101.5; // цена товара
     let productQuantity = 50;  // количество единиц товара на складе
 
-    let count = prompt("Сколько единиц товара Вы хотите приобрести?");
+    let count = +prompt("Сколько единиц товара Вы хотите приобрести?");
     if (count > productQuantity) {
         alert("Такого колличества товара нет на складе выберите другое колличество");
     } else if (count <= productQuantity) {
