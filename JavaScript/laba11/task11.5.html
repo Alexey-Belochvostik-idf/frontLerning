@@ -13,13 +13,27 @@
         Создайте функцию, которая принимает массив значений и возвращает массив с дублирующимися значениями или null если повторяющихся значений в массиве нет.
     </pre>
 <script>
-    const arr = ['html', 'css', 'html', 'js'];
+    const arr = ['HTML', 'css', 'html', 'js'];
 
-    function array(arr) {
+    const unique = arr => {
+        let result = [];
 
-    }
+        for (let str of arr) {
+            let e = str.toLocaleLowerCase();
+            let isUnique = true;
+            for (let str2 of result) {
+                if (e === str2.toLocaleLowerCase()) {
+                    isUnique = false;
+                    break;
+                }
+            }
+            if (isUnique) result.push(str);
+        }
+        return result;
+    };
 
-    alert(array());
+    console.log(unique(arr));
+
 </script>
 </body>
 </html>
